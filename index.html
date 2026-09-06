@@ -363,9 +363,8 @@ body {
 
     .card {
         width: 100%;
-        max-width: none;
-        height: 100svh;
-        min-height: 0;
+        max-width: var(--mobile-width);
+        min-height: max(var(--mobile-height), 100svh);
         padding: 32px var(--side-padding) 30px;
         box-shadow: none;
     }
